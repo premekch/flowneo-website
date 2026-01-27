@@ -1,0 +1,35 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#B794F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#90CDF4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad1)"/>
+  <g transform="translate(50, 50)">
+    <!-- Connected nodes representing automation -->
+    <circle cx="100" cy="100" r="30" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="300" cy="100" r="30" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="500" cy="100" r="30" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="200" cy="250" r="30" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="400" cy="250" r="30" fill="#FFFFFF" opacity="0.9"/>
+    
+    <!-- Connection lines -->
+    <line x1="100" y1="100" x2="300" y2="100" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    <line x1="300" y1="100" x2="500" y2="100" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    <line x1="100" y1="100" x2="200" y2="250" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    <line x1="300" y1="100" x2="200" y2="250" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    <line x1="300" y1="100" x2="400" y2="250" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    <line x1="500" y1="100" x2="400" y2="250" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    <line x1="200" y1="250" x2="400" y2="250" stroke="#FFFFFF" stroke-width="3" opacity="0.7"/>
+    
+    <!-- Icons in circles -->
+    <text x="100" y="110" font-family="Arial" font-size="20" fill="#FF6B35" text-anchor="middle" font-weight="bold">CRM</text>
+    <text x="300" y="110" font-family="Arial" font-size="20" fill="#FF6B35" text-anchor="middle" font-weight="bold">PRO</text>
+    <text x="500" y="110" font-family="Arial" font-size="20" fill="#FF6B35" text-anchor="middle" font-weight="bold">BILL</text>
+    <text x="200" y="260" font-family="Arial" font-size="20" fill="#FF6B35" text-anchor="middle" font-weight="bold">AUTO</text>
+    <text x="400" y="260" font-family="Arial" font-size="20" fill="#FF6B35" text-anchor="middle" font-weight="bold">DATA</text>
+  </g>
+  <text x="300" y="350" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Automatizace proceso</text>
+</svg>

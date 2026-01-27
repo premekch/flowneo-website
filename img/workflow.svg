@@ -1,0 +1,36 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8C5A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#63B3ED;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#grad2)"/>
+  <g transform="translate(50, 80)">
+    <!-- Workflow steps -->
+    <rect x="0" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="160" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="320" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="480" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
+    
+    <!-- Arrows -->
+    <path d="M 120 40 L 160 40" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
+    <path d="M 280 40 L 320 40" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
+    <path d="M 440 40 L 480 40" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
+    <polygon points="155,35 160,40 155,45" fill="#FFFFFF" opacity="0.8"/>
+    <polygon points="315,35 320,40 315,45" fill="#FFFFFF" opacity="0.8"/>
+    <polygon points="475,35 480,40 475,45" fill="#FFFFFF" opacity="0.8"/>
+    
+    <!-- Step labels -->
+    <text x="60" y="50" font-family="Arial" font-size="16" fill="#FF6B35" text-anchor="middle" font-weight="bold">Vstup</text>
+    <text x="220" y="50" font-family="Arial" font-size="16" fill="#FF6B35" text-anchor="middle" font-weight="bold">Zpracování</text>
+    <text x="380" y="50" font-family="Arial" font-size="16" fill="#FF6B35" text-anchor="middle" font-weight="bold">Analýza</text>
+    <text x="540" y="50" font-family="Arial" font-size="16" fill="#FF6B35" text-anchor="middle" font-weight="bold">Výstup</text>
+    
+    <!-- Flow lines below -->
+    <rect x="80" y="120" width="80" height="100" rx="8" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="240" y="120" width="80" height="100" rx="8" fill="#FFFFFF" opacity="0.7"/>
+    <rect x="400" y="120" width="80" height="100" rx="8" fill="#FFFFFF" opacity="0.7"/>
+  </g>
+  <text x="300" y="350" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Chytré workflow</text>
+</svg>
