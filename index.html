@@ -1,223 +1,308 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flowneo - Optimalizace procesů a automatizace</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Navigation Menu -->
     <nav class="navbar">
-        <div class="nav-container">
-            <div class="nav-logo">
-                <a href="#home">FLOWNEO</a>
-            </div>
-            <div class="nav-menu">
-                <a href="#home" class="nav-link">Domů</a>
-                <a href="#customers" class="nav-link">Zákazníci</a>
-                <a href="#offer" class="nav-link">Nabídka</a>
-                <a href="#contact" class="nav-cta">Kontakt</a>
-            </div>
+      <div class="nav-container">
+        <div class="nav-logo">
+          <a href="#home">FLOWNEO</a>
         </div>
+        <div class="nav-menu">
+          <a href="#home" class="nav-link">Domů</a>
+          <a href="#customers" class="nav-link">Pro koho</a>
+          <a href="#offer" class="nav-link">Služby</a>
+          <a href="#contact" class="nav-cta">Kontakt</a>
+        </div>
+      </div>
     </nav>
 
     <!-- Hero Section - Company Introduction -->
     <section id="home" class="hero">
-        <div class="container">
-            <h1 class="logo">FLOWNEO</h1>
-            <h2 class="hero-title">Začněte moderně řídit firmu i sami sebe</h2>
-            <p class="hero-description">
-                Už žádné firemní řízení v Excelu. Skoncujte se zapomenutými fakturami, nepřehledným projektovým řízením nebo příliš optimistickými odhady času. Zjednodušte a automatizujte procesy s námi – ať už jste podnikatel jednotlivec nebo menší firma. Objevte chytré automatizace, které vám usnadní každodenní práci.
-            </p>
-            <p class="hero-subtitle">
-                Optimalizujeme procesy, aby vaše firma byla efektivnější. Hledáme úzká místa ve firemních postupech. Spojujeme nástroje, které spolu nemluví, a odbouráváme rutinní úkoly, které vás brzdí v růstu.
-            </p>
-        </div>
+      <div class="container">
+        <!--<h1 class="logo">FLOWNEO</h1>-->
+        <h2 class="hero-title">Začněte moderně řídit firmu i sami sebe</h2>
+        <p class="hero-description">
+          Už žádné firemní řízení v Excelu. Skoncujte se zapomenutými fakturami,
+          nepřehledným projektovým řízením nebo příliš optimistickými odhady
+          času. Zjednodušte a automatizujte procesy s námi – ať už jste
+          podnikatel jednotlivec nebo menší firma. Objevte chytré automatizace,
+          které vám usnadní každodenní práci.
+        </p>
+        <p class="hero-subtitle">
+          Optimalizujeme procesy, aby vaše firma byla efektivnější. Hledáme úzká
+          místa ve firemních postupech. Spojujeme nástroje, které spolu nemluví,
+          a odbouráváme rutinní úkoly, které vás brzdí v růstu.
+        </p>
+      </div>
     </section>
 
     <!-- Target Customers Section -->
     <section id="customers" class="customers">
-        <div class="container">
-            <h2 class="section-title">Komu pomáháme nejvíce?</h2>
-            <div class="customers-grid">
-                <div class="customer-card">
-                    <h3>Malé firmy</h3>
-                    <p>Firmy, které potřebují zefektivnit své procesy a zbavit se ručních úkolů, aby mohly růst.</p>
-                </div>
-                <div class="customer-card">
-                    <h3>Startupy</h3>
-                    <p>Nové společnosti, které chtějí od začátku stavět na moderních a automatizovaných procesech.</p>
-                </div>
-                <div class="customer-card">
-                    <h3>Freelanceři</h3>
-                    <p>Jednotlivci, kteří potřebují zorganizovat svou práci a automatizovat opakující se úkoly.</p>
-                </div>
-                <div class="customer-card">
-                    <h3>Remote týmy</h3>
-                    <p>Společnosti pracující převážně online, které potřebují efektivní nástroje pro spolupráci na dálku.</p>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Komu pomáháme nejvíce?</h2>
+        <div class="customers-grid">
+          <div class="customer-card">
+            <h3>Malé firmy</h3>
+            <p>
+              Firmy, které potřebují zefektivnit své procesy a zbavit se ručních
+              úkolů, aby mohly růst.
+            </p>
+          </div>
+          <div class="customer-card">
+            <h3>Startupy</h3>
+            <p>
+              Nové společnosti, které chtějí od začátku stavět na moderních a
+              automatizovaných procesech.
+            </p>
+          </div>
+          <div class="customer-card">
+            <h3>Freelanceři</h3>
+            <p>
+              Jednotlivci, kteří potřebují zorganizovat svou práci a
+              automatizovat opakující se úkoly.
+            </p>
+          </div>
+          <div class="customer-card">
+            <h3>Remote týmy</h3>
+            <p>
+              Společnosti pracující převážně online, které potřebují efektivní
+              nástroje pro spolupráci na dálku.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Tools Section -->
     <section class="tools">
-        <div class="container">
-            <h2 class="section-title">Na správu a řízení používáme Notion, na automatizaci n8n</h2>
-            <div class="tools-carousel">
-                <button class="carousel-btn carousel-btn-prev" aria-label="Předchozí">‹</button>
-                <div class="carousel-container">
-                    <div class="carousel-track">
-                        <div class="carousel-slide active">
-                            <div class="slide-content">
-                                <div class="slide-text">
-                                    <h3>🛠 Automatizace firemních procesů</h3>
-                                    <p>Propojujeme CRM, komunikaci, fakturaci, projekty, docházku, strávený čas a nastavujeme logiku, která za vás řeší opakující se úkoly.</p>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="img/automation.svg" alt="Automatizace firemních procesů">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="slide-content">
-                                <div class="slide-text">
-                                    <h3>📊 Návrh chytrého workflow</h3>
-                                    <p>Ukážeme vám, kde můžete využít automatické nástroje a přetvoříme vaše firemní operace na dobře naolejovaný stroj.</p>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="img/workflow.svg" alt="Návrh chytrého workflow">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="slide-content">
-                                <div class="slide-text">
-                                    <h3>📂 Nahrazení tabulek a chaosu systémem</h3>
-                                    <p>Konec kopírování mezi složkami a hlídání verzí v Excelu. Vaše data budou žít a rozhodovat za vás.</p>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="img/system.svg" alt="Nahrazení tabulek systémem">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="carousel-slide">
-                            <div class="slide-content">
-                                <div class="slide-text">
-                                    <h3>🚀 Digitální růstová strategie</h3>
-                                    <p>Nastavíme vám technologie a procesy tak, aby škálování firmy nebylo bolestivé.</p>
-                                </div>
-                                <div class="slide-image">
-                                    <img src="img/growth.svg" alt="Digitální růstová strategie">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+      <div class="container">
+        <h2 class="section-title">
+          Na správu a řízení používáme Notion, na automatizaci n8n
+        </h2>
+        <div class="tools-carousel">
+          <button class="carousel-btn carousel-btn-prev" aria-label="Předchozí">
+            ‹
+          </button>
+          <div class="carousel-container">
+            <div class="carousel-track">
+              <div class="carousel-slide active">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h3>🛠 Automatizace firemních procesů</h3>
+                    <p>
+                      Propojujeme CRM, komunikaci, fakturaci, projekty,
+                      docházku, strávený čas a nastavujeme logiku, která za vás
+                      řeší opakující se úkoly.
+                    </p>
+                  </div>
+                  <div class="slide-image">
+                    <img
+                      src="img/automation.svg"
+                      alt="Automatizace firemních procesů"
+                    />
+                  </div>
                 </div>
-                <button class="carousel-btn carousel-btn-next" aria-label="Další">›</button>
-                <div class="carousel-dots">
-                    <span class="dot active" data-slide="0"></span>
-                    <span class="dot" data-slide="1"></span>
-                    <span class="dot" data-slide="2"></span>
-                    <span class="dot" data-slide="3"></span>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h3>📊 Návrh chytrého workflow</h3>
+                    <p>
+                      Ukážeme vám, kde můžete využít automatické nástroje a
+                      přetvoříme vaše firemní operace na dobře naolejovaný
+                      stroj.
+                    </p>
+                  </div>
+                  <div class="slide-image">
+                    <img src="img/workflow.svg" alt="Návrh chytrého workflow" />
+                  </div>
                 </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h3>📂 Nahrazení tabulek a chaosu systémem</h3>
+                    <p>
+                      Konec kopírování mezi složkami a hlídání verzí v Excelu.
+                      Vaše data budou žít a rozhodovat za vás.
+                    </p>
+                  </div>
+                  <div class="slide-image">
+                    <img
+                      src="img/system.svg"
+                      alt="Nahrazení tabulek systémem"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-slide">
+                <div class="slide-content">
+                  <div class="slide-text">
+                    <h3>🚀 Digitální růstová strategie</h3>
+                    <p>
+                      Nastavíme vám technologie a procesy tak, aby škálování
+                      firmy nebylo bolestivé.
+                    </p>
+                  </div>
+                  <div class="slide-image">
+                    <img
+                      src="img/growth.svg"
+                      alt="Digitální růstová strategie"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <button class="carousel-btn carousel-btn-next" aria-label="Další">
+            ›
+          </button>
+          <div class="carousel-dots">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+            <span class="dot" data-slide="2"></span>
+            <span class="dot" data-slide="3"></span>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Packages Section -->
     <section id="offer" class="packages">
-        <div class="container">
-            <h2 class="section-title">Co nabízíme?</h2>
-            <div class="packages-grid">
-                <div class="package-card">
-                    <h3>Mini balíček</h3>
-                    <p class="package-description">Nastavíme společně základní prostředí pro práci, spustíme 1-2 nejběžnější automatizace, zaškolíme první uživatele.</p>
-                    <p class="package-price">6-12 000 Kč</p>
-                </div>
-                <div class="package-card featured">
-                    <h3>Standard balíček</h3>
-                    <p class="package-description">Nejběžnější nastavení pro malou firmu, dashboardy pro spolupráci, intranet, přehled ve financích, zaškolení.</p>
-                    <p class="package-price">15-25 000 Kč</p>
-                </div>
-                <div class="package-card">
-                    <h3>Custom řešení</h3>
-                    <p class="package-description">Pokud už máte v hlavě, co potřebujete vyřešit a jaké nástroje k tomu budeme napojovat.</p>
-                    <p class="package-price">individuální</p>
-                </div>
-            </div>
-            <div class="support-package">
-                <h3>Podpora</h3>
-                <p>Prvotním nastavením nekončíme a postupně budeme vše dále vylepšovat.</p>
-                <p class="package-price">od 3 000 Kč měsíčně</p>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Co nabízíme?</h2>
+        <div class="packages-grid">
+          <div class="package-card">
+            <h3>Mini balíček</h3>
+            <p class="package-description">
+              Nastavíme společně základní prostředí pro práci, spustíme 1-2
+              nejběžnější automatizace, zaškolíme první uživatele.
+            </p>
+            <p class="package-price">6-12 000 Kč</p>
+          </div>
+          <div class="package-card featured">
+            <h3>Standard balíček</h3>
+            <p class="package-description">
+              Nejběžnější nastavení pro malou firmu, dashboardy pro spolupráci,
+              intranet, přehled ve financích, zaškolení.
+            </p>
+            <p class="package-price">15-25 000 Kč</p>
+          </div>
+          <div class="package-card">
+            <h3>Custom řešení</h3>
+            <p class="package-description">
+              Pokud už máte v hlavě, co potřebujete vyřešit a jaké nástroje k
+              tomu budeme napojovat.
+            </p>
+            <p class="package-price">individuální</p>
+          </div>
         </div>
+        <div class="support-package">
+          <h3>Podpora</h3>
+          <p>
+            Prvotním nastavením nekončíme a postupně budeme vše dále vylepšovat.
+          </p>
+          <p class="package-price">od 3 000 Kč měsíčně</p>
+        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Spojme se a dohodneme další kroky</h2>
-            <p class="contact-intro">
-                Přejděte na byznys, který běží chytře, svižně a sám. Ozvěte se – navrhneme vám automatizaci na míru, která vám ušetří stovky hodin a vrátí firmě klid i tah na branku.
+      <div class="container">
+        <h2 class="section-title">Spojme se a dohodneme další kroky</h2>
+        <p class="contact-intro">
+          Přejděte na byznys, který běží chytře, svižně a sám. Ozvěte se –
+          navrhneme vám automatizaci na míru, která vám ušetří stovky hodin a
+          vrátí firmě klid i tah na branku.
+        </p>
+        <p class="contact-person">
+          Kdo bude na druhé straně? Na Váš kontakt bude čekat Přemysl,
+          konzultant Notionu a n8n, procesní analytik s 15 lety zkušeností s
+          projekty v IT, telco a logistice.
+        </p>
+
+        <div class="contact-options">
+          <div class="contact-option">
+            <h3>📆 Zamluvte si 30minutový hovor</h3>
+            <p>
+              Vyberte si sami v Calendly blok, který se vám nejvíce bude hodit.
             </p>
-            <p class="contact-person">
-                Kdo bude na druhé straně? Na Váš kontakt bude čekat Přemysl, konzultant Notionu a n8n, procesní analytik s 15 lety zkušeností s projekty v IT, telco a logistice.
-            </p>
-            
-            <div class="contact-options">
-                <div class="contact-option">
-                    <h3>📆 Zamluvte si 30minutový hovor</h3>
-                    <p>Vyberte si sami v Calendly blok, který se vám nejvíce bude hodit.</p>
-                    <!-- Calendly embed placeholder -->
-                    <div class="calendly-embed">
-                        <!-- Zde vložte Calendly embed kód -->
-                        <iframe src="" width="100%" height="650" frameborder="0"></iframe>
-                        <p class="embed-note">Vložte zde Calendly embed kód: https://calendly.com/chodura-flowneo/30min</p>
-                    </div>
-                </div>
-                
-                <div class="contact-option">
-                    <h3>📄 Nebo nás kontaktujte přes formulář</h3>
-                    <p>Svůj dotaz nebo přání sepište do formuláře níže.</p>
-                    <!-- Notion form embed placeholder -->
-                    <div class="notion-form-embed">
-                        <!-- Zde vložte Notion form embed kód -->
-                        <p class="embed-note">Vložte zde Notion form embed kód</p>
-                    </div>
-                </div>
+            <!-- Calendly embed placeholder -->
+            <div class="calendly-embed">
+              <!-- Zde vložte Calendly embed kód -->
+              <iframe src="" width="100%" height="650" frameborder="0"></iframe>
+              <p class="embed-note">
+                Vložte zde Calendly embed kód:
+                https://calendly.com/chodura-flowneo/30min
+              </p>
             </div>
+          </div>
+
+          <div class="contact-option">
+            <h3>📄 Nebo nás kontaktujte přes formulář</h3>
+            <p>Svůj dotaz nebo přání sepište do formuláře níže.</p>
+            <!-- Notion form embed placeholder -->
+            <div class="notion-form-embed">
+              <!-- Zde vložte Notion form embed kód -->
+              <p class="embed-note">Vložte zde Notion form embed kód</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <h3>FLOWNEO</h3>
-                </div>
-                <div class="footer-contact">
-                    <p>Stodolní 1428/9, 70200 Ostrava</p>
-                    <p>✉️ <a href="mailto:[email protected]">[email protected]</a></p>
-                    <p>☎ +420 777 834 099</p>
-                </div>
-                <div class="footer-social">
-                    <a href="https://www.linkedin.com/company/flowneo-cz/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">LinkedIn</a>
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">Facebook</a>
-                    <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">Instagram</a>
-                </div>
-            </div>
-            <div class="footer-copyright">
-                <p>© 2025 Flowneo</p>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-brand">
+            <h3>FLOWNEO</h3>
+          </div>
+          <div class="footer-contact">
+            <p>Stodolní 1428/9, 70200 Ostrava</p>
+            <p>✉️ <a href="mailto:[email protected]">[email protected]</a></p>
+            <p>☎ +420 777 834 099</p>
+          </div>
+          <div class="footer-social">
+            <a
+              href="https://www.linkedin.com/company/flowneo-cz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
+              >LinkedIn</a
+            >
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook"
+              >Facebook</a
+            >
+            <a
+              href="https://instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              >Instagram</a
+            >
+          </div>
         </div>
+        <div class="footer-copyright">
+          <p>© 2025 Flowneo</p>
+        </div>
+      </div>
     </footer>
 
     <!-- Black Stripe -->
     <div class="black-stripe"></div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

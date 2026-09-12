@@ -1,15 +1,15 @@
 <svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad4" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#FF6B35;stop-opacity:1" />
-      <stop offset="50%" style="stop-color:#B794F6;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#63B3ED;stop-opacity:1" />
+      <stop offset="0%" style="stop-color:#072534;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#0B4F6C;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:1" />
     </linearGradient>
   </defs>
   <rect width="600" height="400" fill="url(#grad4)"/>
   <g transform="translate(50, 50)">
     <!-- Growth chart -->
-    <polyline points="50,300 100,280 150,240 200,200 250,160 300,120 350,100 400,80 450,60 500,40" 
+    <polyline points="50,300 100,280 150,240 200,200 250,160 300,120 350,100 400,80 450,60 500,40"
               stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.9"/>
     <circle cx="50" cy="300" r="5" fill="#FFFFFF"/>
     <circle cx="100" cy="280" r="5" fill="#FFFFFF"/>
@@ -20,8 +20,8 @@
     <circle cx="350" cy="100" r="5" fill="#FFFFFF"/>
     <circle cx="400" cy="80" r="5" fill="#FFFFFF"/>
     <circle cx="450" cy="60" r="5" fill="#FFFFFF"/>
-    <circle cx="500" cy="40" r="8" fill="#FFFFFF"/>
-    
+    <circle cx="500" cy="40" r="8" fill="#5EEAD4"/>
+
     <!-- Grid lines -->
     <line x1="50" y1="300" x2="50" y2="50" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
     <line x1="50" y1="300" x2="500" y2="300" stroke="#FFFFFF" stroke-width="1" opacity="0.3"/>
@@ -29,13 +29,13 @@
     <line x1="50" y1="200" x2="500" y2="200" stroke="#FFFFFF" stroke-width="1" opacity="0.2"/>
     <line x1="50" y1="150" x2="500" y2="150" stroke="#FFFFFF" stroke-width="1" opacity="0.2"/>
     <line x1="50" y1="100" x2="500" y2="100" stroke="#FFFFFF" stroke-width="1" opacity="0.2"/>
-    
+
     <!-- Upward arrow -->
-    <path d="M 480 60 L 480 20" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.8"/>
-    <polygon points="475,25 480,20 485,25" fill="#FFFFFF" opacity="0.8"/>
-    
+    <path d="M 480 60 L 480 20" stroke="#5EEAD4" stroke-width="3" fill="none" opacity="0.9"/>
+    <polygon points="475,25 480,20 485,25" fill="#5EEAD4" opacity="0.9"/>
+
     <!-- Growth indicators -->
-    <text x="275" y="30" font-family="Arial" font-size="20" fill="#FFFFFF" text-anchor="middle" font-weight="bold">ë Rost</text>
+    <text x="275" y="30" font-family="Arial" font-size="20" fill="#5EEAD4" text-anchor="middle" font-weight="bold">R≈Øst ‚Üë</text>
   </g>
-  <text x="300" y="370" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Digit·lnÌ rostov· strategie</text>
+  <text x="300" y="370" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Digit√°ln√≠ r≈Østov√° strategie</text>
 </svg>
