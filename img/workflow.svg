@@ -1,36 +1,35 @@
-<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="250" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0B4F6C;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#14B8A6;stop-opacity:1" />
     </linearGradient>
   </defs>
-  <rect width="600" height="400" fill="url(#grad2)"/>
-  <g transform="translate(50, 80)">
+  <rect width="300" height="250" fill="url(#grad2)"/>
+  <g transform="translate(10, 40)">
     <!-- Workflow steps -->
-    <rect x="0" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
-    <rect x="160" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
-    <rect x="320" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
-    <rect x="480" y="0" width="120" height="80" rx="10" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="40" y="0" width="70" height="70" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="220" y="0" width="150" height="140" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <rect x="40" y="200" width="50" height="40" rx="8" fill="#FFFFFF" opacity="0.9"/>
+	<rect x="220" y="200" width="50" height="40" rx="8" fill="#FFFFFF" opacity="0.9"/>
+    <!--<rect x="255" y="0" width="0" height="45" rx="8" fill="#FFFFFF" opacity="0.9"/>-->
 
     <!-- Arrows -->
-    <path d="M 120 40 L 160 40" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
-    <path d="M 280 40 L 320 40" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
-    <path d="M 440 40 L 480 40" stroke="#FFFFFF" stroke-width="4" fill="none" opacity="0.8"/>
-    <polygon points="155,35 160,40 155,45" fill="#FFFFFF" opacity="0.8"/>
-    <polygon points="315,35 320,40 315,45" fill="#FFFFFF" opacity="0.8"/>
-    <polygon points="475,35 480,40 475,45" fill="#FFFFFF" opacity="0.8"/>
+    <path d="M 65 22 L 85 22" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M 150 22 L 170 22" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.8"/>
+    <polygon points="82,19 85,22 82,25" fill="#FFFFFF" opacity="0.8"/>
+    <polygon points="167,19 170,22 167,25" fill="#FFFFFF" opacity="0.8"/>
 
     <!-- Step labels -->
-    <text x="60" y="50" font-family="Arial" font-size="16" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Vstup</text>
-    <text x="220" y="50" font-family="Arial" font-size="16" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Zpracování</text>
-    <text x="380" y="50" font-family="Arial" font-size="16" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Analýza</text>
-    <text x="540" y="50" font-family="Arial" font-size="16" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Výstup</text>
+    <text x="39" y="30" font-family="Arial" font-size="11" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Vstup</text>
+    <text x="109" y="30" font-family="Arial" font-size="11" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Analýza</text>
+	<text x="179" y="30" font-family="Arial" font-size="11" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Zprac.</text>
+	<text x="239" y="30" font-family="Arial" font-size="11" fill="#0B4F6C" text-anchor="middle" font-weight="bold">Výstup</text>
+    
 
-    <!-- Flow lines below -->
-    <rect x="80" y="120" width="80" height="100" rx="8" fill="#FFFFFF" opacity="0.7"/>
-    <rect x="240" y="120" width="80" height="100" rx="8" fill="#FFFFFF" opacity="0.7"/>
-    <rect x="400" y="120" width="80" height="100" rx="8" fill="#FFFFFF" opacity="0.7"/>
+    <!-- Flow lines below 
+    <rect x="50" y="65" width="50" height="55" rx="5" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="130" y="65" width="50" height="55" rx="5" fill="#FFFFFF" opacity="0.6"/>
+    <rect x="235" y="65" width="40" height="55" rx="5" fill="#FFFFFF" opacity="0.6"/>-->
   </g>
-  <text x="300" y="350" font-family="Arial" font-size="24" fill="#FFFFFF" text-anchor="middle" font-weight="bold">Chytré workflow</text>
 </svg>
